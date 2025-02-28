@@ -1,0 +1,912 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* header Section */
+nav{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    padding: 0px 40px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     position: fixed;  
+     top: 0px; 
+     z-index: auto;
+   
+}
+.navbar a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.navbar img{
+    width: 60px;
+    margin-left: 10px;
+}
+.navbar i{
+    display: none;
+}
+
+.fa-solid{
+    font-size: 17px;
+    margin-left: 10px;
+}
+/*  Social-Technologies-section */
+#text{
+    width: 100%;
+    height: 80dvh;
+    background-image: url(./Assets/background\ image.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+   
+}
+.text1{
+    width: 40%;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 30px;
+   
+}
+.text1 img{
+    width: 60px;
+    margin-top: 20px;
+}
+
+.text1 h1{
+    font-size: 64px;
+    font-weight: 500;
+    color:rgb(28,43,51);
+}
+.text1 p{
+    font-size: 18px;
+    font-weight: 400;
+    color:rgb(28,43,51)
+}
+/* Meta-Connect 2024 box Section */
+#metaconnect{
+    width: 100%;
+    height: 50dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px; 
+   
+    
+}
+.box1{
+    width: 38%;
+    height: 40dvh;
+   
+}
+.box1 img{
+    width: 100%;
+    height: 280px;
+}
+.box2{
+    width: 40%;
+    height: 40dvh;
+    padding: 30px 30px;
+    line-height: 35px;
+    align-items: left;
+
+    
+    
+    
+}
+.box2 h2{
+    font-size: 36px;
+    font-weight: 500;
+    color:rgb(28,43,51);
+    
+}
+.box2 p{
+    font-size: 18px;
+    font-weight: 400;
+    color:rgb(28,43,51);
+    margin-top: 10px;
+}
+button{
+    width: 120px;
+    padding: 10px;
+    background-color: rgb(0,100,224);
+    color: white;
+    border-radius: 20px;
+    font-weight:bold;
+    margin-top: 15px;
+    border: none;
+    font-size: 15px;
+}
+/* Explore Social Technologies Section */
+.container{
+    width: 100%;
+    height: 100dvh;
+    padding:0px 70px;
+    line-height: 40px;
+    margin-top: 50px;   
+}
+
+.big-cont{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.big-cont p a:hover{
+    color: rgba(0, 0, 255, 0.564);
+}
+
+.big-cards{
+    width: 100%;
+    height: 70dvh;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: rgb(248,249,251);
+}
+.container h2{
+    font-size: 40px;
+    font-weight: 800;
+    color:rgb(28,43,51);
+}
+.container p{
+    font-size: 18px;
+    font-weight: 400;
+    color:rgb(28,43,51);
+}
+.img-cont img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 1s ease-in-out;
+    
+
+}
+.big-cards .img-cont {
+    width: 425px;
+    height: 300px;
+    border-radius: 30px 30px 0px 0px;
+    overflow: hidden;
+}
+
+
+.big-cards .img-cont img:hover{
+        transform: scale(1.1);
+        
+   
+}
+
+
+.writing-section{
+    padding: 32px 32px 16px 32px;
+    width: 100%;
+  
+}
+.writing-section h3{
+    font-size: 24px;
+    font-weight: 600;
+    color:rgb(28,43,51);
+}
+.writing-section p{
+    font-size: 18px;
+    font-weight: 400;
+    color:rgb(28,43,51);
+}
+.writing-section a{
+    color: rgb(64,150,232);
+    font-size: 18px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+/* Start Building with us section */
+
+.big-container{
+    width: 100%;
+    position: relative;
+    padding: 50px 50px;
+    
+  
+}
+.big-container h1{
+    margin-bottom: 20px;
+    
+}
+
+.big-container .card-boxes .box{
+    min-width: 30%;
+    height: 480px;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: left;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    transition:transform 0.3s ease-in-out;
+    scroll-snap-type: center;
+}
+.box:hover{
+    transform: scale(1.05);
+}
+.card-boxes{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    padding: 20px;
+}
+
+.card-boxes .box img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    
+  
+}
+
+.text-div{
+    padding:15px;
+  
+}
+.text-div h5{
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+.text-div h3{
+    font-size: 20px;
+    margin: 10px 0;
+   
+}
+.text-div p{
+    font-size: 16px;
+    color: #333;
+}
+.text-div button a{
+    text-decoration: none;
+    color:rgb(28,43,51);
+
+}
+.text-div button{
+    background-color: rgb(255,255,255);
+    border: 1px solid rgb(28,43,51);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+.big-container .nav-button{
+    position: absolute;
+     top:50%; 
+    transform:translateY(-50%);
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.3s;
+    z-index: 10;
+    
+}
+.nav-button:hover{
+    background: rgb(0,0,0,0.8);
+}
+.nav-left{
+    left: 10px;
+}
+.nav-right{
+    right: 10px;
+}
+
+/* Why Build with us section */
+.build{
+    width: 100%;
+    height: 80dvh;
+    background-image: url(./Assets/backgrouncolor\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+   align-content: center;
+   padding: auto;
+  
+  
+   
+}
+.build h2{
+    font-size: 36px;
+    font-weight: 900;
+    color:white;
+
+}
+.build button{
+    width: 10%;
+    padding: 15px;
+    background-color: white;
+    color:rgb(28,43,51); 
+}
+.general-boxes{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    height: 260px;
+    
+}
+.boxes{
+    width: 23%;
+    height: 220px;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+    text-align: left;
+    padding: 35px;
+    line-height: 22px;
+}
+.boxes h2{
+    font-size: 36px;
+    font-weight: 900;
+    color:rgb(28,43,51);
+}
+.boxes p{
+    font-size: 18px;
+    font-weight: 400;
+    color:rgb(28,43,51);
+}
+
+.big-div{
+    width: 80%;
+    background-color: rgb(241,244,247);
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+    justify-self: center;
+    margin-top: 50px;
+    border-radius: 80px;
+    
+    
+   
+}
+
+.big-div .sm-div p button{
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+}
+.sm-div h3{
+    font-size: 36px;
+    font-weight: 500;
+    color:rgb(28,43,51);
+    margin-bottom: 25px;
+}
+.sm-div p{
+    font-size: 18px;
+    font-weight: 400;
+    color:rgb(28,43,51);
+}
+
+/* Latest Technologies Marketing-section */
+#marketing{
+    width: 100%;
+    height: 90dvh;
+    padding: 50px;
+    margin-top: 50px;
+   
+}
+
+
+.box5{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 60px;
+    margin-top: 20px;
+    line-height: 35px;
+    
+}
+.box3{
+    width: 40%;
+    height: 60dvh;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 40px;
+    
+}
+.box3 img{
+    width: 560px;
+    height: 100%;
+    border-radius: 40px;
+    
+}
+.box4{
+    width: 45%;
+    height: 40dvh;
+  
+    
+}
+#marketing h1{
+    font-size: 48px;
+    font-weight: 500;
+}
+.box4 h2{
+    font-size: 36px;
+    font-weight: 550;
+}
+.box4 p{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(70,111,168);
+}
+.box4 h5{
+    font-size: 18px;
+    font-weight: 550;
+}
+/* Images-section */
+.images-section{
+   
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.images-section .div-box{
+    width: 30rem;
+    height: 40rem;
+   
+    overflow: hidden;
+    border-radius: 30px;
+}
+.images-section .div-box img{
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 40px;
+    transition: all 1s ease-in-out;
+}
+.images-section .div-box img:hover{
+    transform: scale(1.1);
+
+}
+.div-box .text-div{
+    line-height: 30px;
+    height: 19rem;
+    width: 100%;
+}
+.div-box .text-div h6{
+    font-size: 12px;
+    font-weight: 400;
+}
+.div-box .text-div{
+    font-size: 24px;
+    font-weight: 500;
+}
+.div-box .text-div{
+    font-size: 18px;
+    font-weight: 400;
+    color:rgb(28,43,51);
+}
+.div-box .text-div{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Blog-section */
+hr{ 
+    width: 50%;
+    height: 0px;
+}
+
+.blog{
+    display: flex;
+}
+.blog button{
+    margin-top: -16px;
+    width: 16%;
+    background-color: rgb(0,100,224);
+}
+/* Newsletter - section */
+.big-div2{
+    width: 80%;
+    background-color: rgb(28,43,51);
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+    justify-self: center;
+    padding: 70px;
+    margin-top: 50px;
+    border-radius: 80px;
+    color: white;
+}
+
+.sm-div2 p{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight:500;
+    
+}
+.sm-div2 h2{
+    font-size: 36px;
+    font-weight: 500;
+}
+.sm-div2 button{
+    color: black;
+    background-color: white;
+}
+
+/* footer Meta div section */
+.meta-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+   border-top: 1px solid rgba(128, 128, 128, 0.263);
+    padding: 50px;
+    height: 45dvh;
+}
+.logo-div2{
+    margin-top: 50px;
+}
+.logo-div2 img{
+    width: 10%;
+}
+.lists{
+    height: 25px;
+    line-height: 30px;
+}
+.support{
+    line-height: 25px;
+}
+.terms{
+    line-height: 25px;
+}
+li{
+    list-style: none;
+}
+.follow-us{
+    display: none;
+    
+}
+
+/* last footer section */
+
+.last-hr{
+    width: 70%;
+    justify-self: center;
+    border-color:rgba(128, 128, 128, 0.277);
+}
+.last-div{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px;
+   
+}
+.last-div ul{
+    display: flex;
+    gap: 20px;
+}
+
+/* Responsive web design section for max of 1023px */
+@media screen and (max-width:1023px) {
+    /* header section */
+    .navbar a{
+        display: none;
+    }
+    nav{
+        width: 100%;
+        padding: 0px;
+        position: fixed;
+        
+    }
+    .navbar i{
+        display: block;
+        float: left;
+    }
+    .login{
+        display: none;
+    }
+
+
+    /* Social Technologies section */
+    #text{
+       background-image: none;
+       background-color: rgb(226,232,252);
+       max-width: 100%;
+    }
+    .text1{
+        width: 100%;
+    }
+    .text1 img{
+        margin-left:10px;
+        width: 40px;
+    }
+    .text1 h1{
+        font-size: 36px;
+        font-weight: 500;
+    }
+    .text1 p{
+        width: 90%;
+    }
+
+
+    /* Meta-connect 2024 box section */
+    #metaconnect{
+        display: contents;
+       flex-wrap: nowrap;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       gap: 32px;
+      
+  
+       
+    }
+     .box1{
+        width: 100%;
+     }
+    .box1 img{
+        padding:30px;
+        width: 100%;
+        text-align: left;
+        max-width: inherit;
+    }
+    .box2{
+        padding: 30px;
+        width: 100%;
+    }
+    .box2 p{
+        font-size: 18px;
+        line-height: 150%;
+        font-weight: 400;
+    }
+    .big-cont{
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+        width: 100%;
+        height: 60dvh;
+        
+    }
+    .big-cards .img-cont{
+       width: 100%;
+        
+    }
+    
+    .writing-section{
+        padding: 24px 24px 16px 24px;
+        width: 100%;
+        line-height: 40px;
+      
+    }
+    /* Explore Social Technologies Section */
+    .container{
+        height: 260dvh;
+    }
+   .big-container{
+    max-width: 100%;
+    height: 380dvh;
+   }
+   .card-boxes{
+    display: block;
+    
+   }
+
+   .card-boxes .box{
+    margin-bottom: 40px;
+   }
+   .nav-button{
+    display: none;
+   }
+
+    /* Why build with us Section */
+    .build{
+        height: 140dvh;
+        align-content: start;
+        text-align: center;
+        padding: 60px;
+    }
+    .general-boxes{
+        display: block;
+        height: 770px;
+        width: 100%;
+    }
+    .general-boxes .boxes{
+        width: 100%;
+       padding: 40px;
+       line-height: 27px;
+       border-radius: 10px;
+     
+    }
+    .build button{
+        width: 50%;
+    }
+    .big-div{
+       
+        height: 350px;
+        display: block;
+        width: 90%;
+       border-radius: 30px;
+       padding: 50px;
+       
+    }
+    .big-div .sm-div p button{
+        width: 60%;
+        margin-top: 25px;
+    }
+
+    /* Latest Technologies Marketing Section */
+    #marketing{
+      
+        height:130dvh;
+        padding: 30px;
+    }
+    .box5{
+        display: block;
+        width: 100%;
+        height: 110dvh;
+    }
+
+    .box3{
+        width: 100%;
+        height: 50dvh;
+         object-fit: cover;
+        overflow: hidden;
+        
+    }
+    .box4{
+        height: 50dvh;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    /* Images Section */
+    .images-section{
+        display: block;
+        padding: 30px;
+    }
+    .images-section .div-box{
+        width: 25rem;
+    }
+    .blog button{
+        width: 100%;
+    }
+
+
+    /* Newsletter section */
+    .big-div2{
+        width: 90%;
+        border-radius: 50px;
+        display: block;
+        height: 350px;
+        border-radius: 30px;
+    
+    }
+
+
+    .sm-div2 button{
+        margin-top: 50px;
+        width: 40%;
+        padding: 20px;
+        font-size: 18px;
+        border-radius: 50px;
+    }
+    /* footer meta div section */
+    .meta-section{
+        display: block;
+        height: 110dvh;
+    }
+   
+    .logo-div2{
+        display: none;
+    }
+    .lists{
+        height: 32dvh;
+        line-height: 30px;
+        margin-top: 20px;
+    }
+    .support{
+        margin-top: 20px;
+        line-height: 30px;
+    }
+    .terms{
+        margin-top: 20px;
+        line-height: 30px;
+    }
+    .follow-us{
+        display: block;
+        margin-top: 30px;
+    }
+  .follow-us img{
+    margin: 10px;
+    width: 8%;
+  }
+  .follow-us p{
+    font-size: 20px;
+  }
+
+  /* Last footer Section */
+  .last-div{
+    display: block;
+  }
+  .last-div ul{
+    display: block;
+    margin-top: 25px;
+  }
+
+}
+
+/* for media screen at 320px */
+ 
+@media screen and (max-width:320px) {
+
+    /* Meta-connect 2024 box section */
+    .box2{
+       margin-top: 30px;
+    }
+    .box1 img{
+        width: 320px;
+        height: 250px;
+    }
+
+    /* Explore Social Technologies Section */
+    .container{
+        margin-top: 50px;
+        height: 360dvh; 
+    }
+
+  .big-cards{
+    height: 100dvh;
+  }
+
+  /* Start Building with us section */
+  .big-container{
+    height: 520dvh;
+  }
+
+  /* Why build with us section  */
+  .build{
+    height: 200dvh;
+  }
+
+  /* Images-section */
+  .images-section .div-box img{
+    width: 90%;
+  }
+/* Latest technologies marketing-section */
+
+  #marketing{
+    height: 180dvh;
+  }
+
+  /* Newsletter Section */
+    .big-div2{
+        height: 400px ;
+    }
+    .sm-div2 button{
+        width: 50%;
+    }
+
+    /* Footer meta div section */
+    .meta-section{
+       
+        height: 150dvh;
+    }
+   .lists{
+    height:45dvh;
+   }
+   /* last footer section */
+.last-div ul{
+    line-height: 30px;
+}
+
+}
