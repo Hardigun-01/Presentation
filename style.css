@@ -327,7 +327,7 @@ button{
 
 }
 .build button{
-    width: 10%;
+    width: 15%;
     padding: 15px;
     background-color: white;
     color:rgb(28,43,51); 
@@ -348,7 +348,7 @@ button{
     border-radius: 10px;
     text-align: left;
     padding: 35px;
-    line-height: 22px;
+    line-height: 25px;
 }
 .boxes h2{
     font-size: 36px;
@@ -692,6 +692,7 @@ li{
     .container{
         height: 260dvh;
     }
+    
    .big-container{
     max-width: 100%;
     height: 380dvh;
